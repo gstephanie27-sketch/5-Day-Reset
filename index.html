@@ -1,0 +1,1574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thrive Phase · Free 5-Day Hormonal Reset Guide</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300;1,9..40,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --plum: #4A1942;
+    --plum-dark: #351030;
+    --plum-mid: #6B2B5F;
+    --rose: #C4857A;
+    --rose-light: #E8C4BD;
+    --rose-pale: #F5E8E5;
+    --gold: #C9A84C;
+    --gold-light: #E8D5A0;
+    --gold-pale: #FAF3E0;
+    --sage: #7A9E7E;
+    --sage-light: #B8D4BB;
+    --sage-pale: #EBF3EC;
+    --cream: #FAF7F2;
+    --cream-dark: #F0EAE0;
+    --text-dark: #2C1A28;
+    --text-mid: #5C4A58;
+    --text-light: #8A7A86;
+    --white: #FFFFFF;
+    --border: #E8DDD8;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--cream);
+    color: var(--text-dark);
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  /* ─── HERO ─── */
+  .hero {
+    background: linear-gradient(150deg, var(--plum-dark) 0%, var(--plum) 55%, #7A2060 100%);
+    position: relative;
+    overflow: hidden;
+    padding: 64px 40px 72px;
+    text-align: center;
+  }
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: -80px; right: -80px;
+    width: 340px; height: 340px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(201,168,76,0.18) 0%, transparent 70%);
+  }
+  .hero::after {
+    content: '';
+    position: absolute;
+    bottom: -60px; left: -60px;
+    width: 260px; height: 260px;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(196,133,122,0.15) 0%, transparent 70%);
+  }
+  .hero-eyebrow {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 18px;
+    position: relative;
+    z-index: 1;
+  }
+  .hero-badge {
+    display: inline-block;
+    background: rgba(201,168,76,0.18);
+    border: 1px solid rgba(201,168,76,0.4);
+    color: var(--gold);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    padding: 6px 18px;
+    border-radius: 30px;
+    margin-bottom: 22px;
+    position: relative;
+    z-index: 1;
+  }
+  .hero-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 52px;
+    font-weight: 300;
+    color: var(--white);
+    line-height: 1.15;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 1;
+  }
+  .hero-title em {
+    font-style: italic;
+    color: var(--rose-light);
+  }
+  .hero-sub {
+    font-size: 16px;
+    color: rgba(255,255,255,0.65);
+    max-width: 580px;
+    margin: 0 auto 32px;
+    line-height: 1.7;
+    position: relative;
+    z-index: 1;
+  }
+  .hero-pills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 36px;
+    position: relative;
+    z-index: 1;
+  }
+  .hero-pill {
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.22);
+    color: rgba(255,255,255,0.85);
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    padding: 6px 16px;
+    border-radius: 30px;
+  }
+  .hero-cta {
+    display: inline-block;
+    background: linear-gradient(135deg, var(--gold) 0%, #E8C060 100%);
+    color: var(--plum-dark);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    padding: 16px 40px;
+    border-radius: 6px;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 4px 24px rgba(201,168,76,0.35);
+    cursor: pointer;
+    border: none;
+  }
+  .hero-cta:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 32px rgba(201,168,76,0.45);
+  }
+  .hero-note {
+    font-size: 12px;
+    color: rgba(255,255,255,0.4);
+    margin-top: 14px;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* ─── DAY NAV ─── */
+  .day-nav {
+    background: var(--white);
+    border-bottom: 2px solid var(--border);
+    padding: 0 32px;
+    display: flex;
+    gap: 0;
+    overflow-x: auto;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 16px rgba(74,25,66,0.08);
+  }
+  .day-btn {
+    padding: 16px 24px;
+    border: none;
+    background: none;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12.5px;
+    font-weight: 500;
+    letter-spacing: 0.07em;
+    color: var(--text-light);
+    cursor: pointer;
+    white-space: nowrap;
+    border-bottom: 3px solid transparent;
+    margin-bottom: -2px;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+  }
+  .day-btn:hover { color: var(--plum); }
+  .day-btn.active {
+    color: var(--plum);
+    border-bottom-color: var(--plum);
+    font-weight: 700;
+  }
+  .day-num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px; height: 22px;
+    border-radius: 50%;
+    background: var(--cream-dark);
+    color: var(--text-mid);
+    font-size: 10px;
+    font-weight: 700;
+  }
+  .day-btn.active .day-num {
+    background: var(--plum);
+    color: var(--white);
+  }
+
+  /* ─── CONTENT ─── */
+  .content-area {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 44px 32px 100px;
+  }
+  .day-panel { display: none; }
+  .day-panel.active { display: block; }
+
+  /* ─── DAY HEADER ─── */
+  .day-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 32px;
+    padding-bottom: 28px;
+    border-bottom: 2px solid var(--border);
+  }
+  .day-number-badge {
+    flex-shrink: 0;
+    width: 64px; height: 64px;
+    border-radius: 16px;
+    background: linear-gradient(135deg, var(--plum) 0%, var(--plum-mid) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+  }
+  .day-number-badge .d-label { font-size: 9px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; opacity: 0.7; }
+  .day-number-badge .d-num { font-family: 'Cormorant Garamond', serif; font-size: 32px; font-weight: 600; line-height: 1; }
+  .day-header-text {}
+  .day-eyebrow { font-size: 11px; font-weight: 600; letter-spacing: 0.3em; text-transform: uppercase; color: var(--rose); margin-bottom: 6px; }
+  .day-title { font-family: 'Cormorant Garamond', serif; font-size: 30px; font-weight: 400; color: var(--plum); line-height: 1.2; }
+  .day-title em { font-style: italic; }
+  .day-tagline { font-size: 14px; color: var(--text-mid); margin-top: 6px; line-height: 1.6; }
+
+  .divider { width: 48px; height: 2px; background: linear-gradient(90deg, var(--gold), var(--rose)); margin: 0 0 28px; border-radius: 2px; }
+
+  /* ─── SECTION LABEL ─── */
+  .section-label {
+    font-size: 10.5px;
+    font-weight: 700;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .section-label::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--border);
+  }
+
+  /* ─── INTRO TEXT ─── */
+  .day-intro {
+    font-size: 15.5px;
+    color: var(--text-mid);
+    line-height: 1.8;
+    margin-bottom: 32px;
+    padding: 20px 24px;
+    background: var(--white);
+    border-radius: 12px;
+    border-left: 4px solid var(--plum);
+  }
+
+  /* ─── CONTENT BLOCKS ─── */
+  .content-block {
+    background: var(--white);
+    border-radius: 14px;
+    border: 1.5px solid var(--border);
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+  .block-header {
+    padding: 16px 22px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border-bottom: 1px solid var(--border);
+  }
+  .block-header.plum { background: linear-gradient(135deg, var(--plum) 0%, var(--plum-mid) 100%); }
+  .block-header.rose { background: linear-gradient(135deg, #9A4A40 0%, var(--rose) 100%); }
+  .block-header.gold { background: linear-gradient(135deg, #8A6820 0%, var(--gold) 100%); }
+  .block-header.sage { background: linear-gradient(135deg, #3A6A3E 0%, var(--sage) 100%); }
+  .block-icon { font-size: 20px; }
+  .block-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--white);
+  }
+  .block-tag {
+    margin-left: auto;
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    background: rgba(255,255,255,0.15);
+    color: rgba(255,255,255,0.9);
+    padding: 3px 10px;
+    border-radius: 20px;
+  }
+  .block-body { padding: 20px 22px; }
+  .block-body p { font-size: 14px; color: var(--text-mid); line-height: 1.75; margin-bottom: 14px; }
+  .block-body p:last-child { margin-bottom: 0; }
+  .block-body strong { color: var(--plum); }
+
+  /* ─── LIST ITEMS ─── */
+  .tip-list { list-style: none; }
+  .tip-list li {
+    padding: 9px 0 9px 22px;
+    font-size: 14px;
+    color: var(--text-mid);
+    line-height: 1.65;
+    border-bottom: 1px solid var(--cream-dark);
+    position: relative;
+  }
+  .tip-list li:last-child { border-bottom: none; }
+  .tip-list li::before { content: '→'; position: absolute; left: 0; color: var(--rose); font-weight: 700; font-size: 12px; top: 10px; }
+
+  /* ─── TWO-COL GRID ─── */
+  .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 20px; }
+  @media(max-width: 600px) { .two-col { grid-template-columns: 1fr; } }
+
+  /* ─── FOOD CARD ─── */
+  .food-card {
+    background: var(--white);
+    border-radius: 12px;
+    border: 1.5px solid var(--border);
+    padding: 18px;
+    position: relative;
+    overflow: hidden;
+  }
+  .food-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; }
+  .food-card.eat::before { background: linear-gradient(90deg, var(--sage), var(--sage-light)); }
+  .food-card.limit::before { background: linear-gradient(90deg, var(--rose), var(--rose-light)); }
+  .food-card-label { font-size: 10px; font-weight: 700; letter-spacing: 0.22em; text-transform: uppercase; margin-bottom: 10px; }
+  .food-card.eat .food-card-label { color: var(--sage); }
+  .food-card.limit .food-card-label { color: var(--rose); }
+  .food-card-title { font-family: 'Cormorant Garamond', serif; font-size: 17px; font-weight: 600; color: var(--plum); margin-bottom: 10px; }
+  .food-items { display: flex; flex-wrap: wrap; gap: 6px; }
+  .food-tag {
+    font-size: 12px;
+    font-weight: 500;
+    padding: 4px 11px;
+    border-radius: 20px;
+  }
+  .eat .food-tag { background: var(--sage-pale); color: #2A5A2E; border: 1px solid var(--sage-light); }
+  .limit .food-tag { background: var(--rose-pale); color: #7A3030; border: 1px solid var(--rose-light); }
+
+  /* ─── SOMATIC STEPS ─── */
+  .steps { counter-reset: step; }
+  .step-item {
+    display: flex;
+    gap: 16px;
+    padding: 14px 0;
+    border-bottom: 1px solid var(--cream-dark);
+  }
+  .step-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .step-num {
+    flex-shrink: 0;
+    width: 30px; height: 30px;
+    border-radius: 50%;
+    background: var(--plum);
+    color: var(--white);
+    font-size: 13px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2px;
+  }
+  .step-content {}
+  .step-title { font-weight: 600; font-size: 14px; color: var(--plum); margin-bottom: 4px; }
+  .step-detail { font-size: 13.5px; color: var(--text-mid); line-height: 1.65; }
+
+  /* ─── QUIZ ─── */
+  .quiz-intro {
+    background: linear-gradient(135deg, var(--plum-dark) 0%, var(--plum) 100%);
+    border-radius: 14px;
+    padding: 28px;
+    color: var(--white);
+    margin-bottom: 24px;
+    text-align: center;
+  }
+  .quiz-intro h3 { font-family: 'Cormorant Garamond', serif; font-size: 28px; font-weight: 400; margin-bottom: 8px; }
+  .quiz-intro p { font-size: 14px; color: rgba(255,255,255,0.7); line-height: 1.6; }
+  .quiz-section { margin-bottom: 28px; }
+  .quiz-section-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--plum);
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .quiz-q {
+    background: var(--white);
+    border-radius: 10px;
+    border: 1.5px solid var(--border);
+    padding: 16px 18px;
+    margin-bottom: 10px;
+  }
+  .quiz-q-text { font-size: 14px; font-weight: 500; color: var(--text-dark); margin-bottom: 12px; }
+  .quiz-options { display: flex; flex-direction: column; gap: 8px; }
+  .quiz-option {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 7px;
+    border: 1.5px solid var(--border);
+    transition: all 0.15s;
+    font-size: 13.5px;
+    color: var(--text-mid);
+    background: var(--cream);
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  .quiz-option:hover { border-color: var(--plum); background: var(--rose-pale); color: var(--plum); }
+  .quiz-option.selected { border-color: var(--plum); background: var(--rose-pale); color: var(--plum); font-weight: 500; }
+  .quiz-option input { display: none; }
+  .quiz-option-dot {
+    width: 16px; height: 16px;
+    border-radius: 50%;
+    border: 2px solid var(--border);
+    flex-shrink: 0;
+    margin-top: 2px;
+    transition: all 0.15s;
+  }
+  .quiz-option.selected .quiz-option-dot {
+    background: var(--plum);
+    border-color: var(--plum);
+  }
+  .quiz-submit-row { text-align: center; margin-top: 32px; }
+  .quiz-submit {
+    background: linear-gradient(135deg, var(--plum) 0%, var(--plum-mid) 100%);
+    color: var(--white);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    padding: 16px 40px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s;
+    box-shadow: 0 4px 20px rgba(74,25,66,0.25);
+  }
+  .quiz-submit:hover { transform: translateY(-2px); box-shadow: 0 8px 28px rgba(74,25,66,0.35); }
+  .quiz-result {
+    display: none;
+    background: var(--white);
+    border-radius: 14px;
+    border: 2px solid var(--gold);
+    padding: 28px;
+    margin-top: 28px;
+    text-align: center;
+  }
+  .quiz-result.show { display: block; }
+  .result-emoji { font-size: 40px; margin-bottom: 12px; }
+  .result-type { font-family: 'Cormorant Garamond', serif; font-size: 28px; font-weight: 600; color: var(--plum); margin-bottom: 8px; }
+  .result-desc { font-size: 14px; color: var(--text-mid); line-height: 1.75; max-width: 580px; margin: 0 auto 16px; }
+  .result-tags { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+  .result-tag { background: var(--rose-pale); color: var(--plum); font-size: 12px; font-weight: 500; padding: 4px 14px; border-radius: 20px; border: 1px solid var(--rose-light); }
+
+  /* ─── TIP BOX ─── */
+  .tip-box {
+    background: var(--cream-dark);
+    border-left: 4px solid var(--gold);
+    border-radius: 0 10px 10px 0;
+    padding: 16px 20px;
+    margin: 20px 0;
+    font-size: 13.5px;
+    color: var(--text-mid);
+    line-height: 1.7;
+  }
+  .tip-box strong { color: var(--plum); }
+
+  /* ─── CALLOUT ─── */
+  .callout {
+    background: var(--rose-pale);
+    border: 1.5px solid var(--rose-light);
+    border-radius: 12px;
+    padding: 18px 22px;
+    margin: 20px 0;
+    font-size: 14px;
+    color: var(--text-mid);
+    line-height: 1.7;
+  }
+  .callout strong { color: var(--plum); }
+
+  /* ─── DAILY CHECKLIST ─── */
+  .checklist { list-style: none; margin: 4px 0; }
+  .checklist li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 9px 0;
+    font-size: 14px;
+    color: var(--text-mid);
+    border-bottom: 1px solid var(--cream-dark);
+    cursor: pointer;
+  }
+  .checklist li:last-child { border-bottom: none; }
+  .check-box {
+    width: 20px; height: 20px;
+    border-radius: 5px;
+    border: 2px solid var(--border);
+    flex-shrink: 0;
+    margin-top: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    transition: all 0.15s;
+  }
+  .checklist li.done .check-box {
+    background: var(--sage);
+    border-color: var(--sage);
+    color: var(--white);
+  }
+  .checklist li.done span { text-decoration: line-through; opacity: 0.6; }
+
+  /* ─── JOURNAL PROMPTS ─── */
+  .journal-block {
+    background: var(--white);
+    border-radius: 14px;
+    border: 1.5px solid var(--border);
+    padding: 22px;
+    margin-bottom: 20px;
+  }
+  .journal-block-title {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--plum);
+    margin-bottom: 4px;
+  }
+  .journal-block-sub { font-size: 11.5px; color: var(--text-light); letter-spacing: 0.12em; text-transform: uppercase; margin-bottom: 14px; }
+  .journal-prompts { list-style: none; }
+  .journal-prompts li {
+    padding: 8px 0 8px 20px;
+    font-size: 14px;
+    color: var(--text-mid);
+    line-height: 1.65;
+    border-bottom: 1px solid var(--cream-dark);
+    position: relative;
+  }
+  .journal-prompts li:last-child { border-bottom: none; }
+  .journal-prompts li::before { content: '—'; position: absolute; left: 0; color: var(--gold); font-weight: 700; }
+
+  /* ─── CTA BANNER ─── */
+  .cta-banner {
+    background: linear-gradient(135deg, var(--plum-dark) 0%, var(--plum) 60%, #7A2060 100%);
+    border-radius: 16px;
+    padding: 36px 32px;
+    text-align: center;
+    margin-top: 40px;
+    position: relative;
+    overflow: hidden;
+  }
+  .cta-banner::before {
+    content: '';
+    position: absolute;
+    top: -40px; right: -40px;
+    width: 180px; height: 180px;
+    border-radius: 50%;
+    background: rgba(201,168,76,0.12);
+  }
+  .cta-banner h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--white);
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 1;
+  }
+  .cta-banner h3 em { font-style: italic; color: var(--rose-light); }
+  .cta-banner p {
+    font-size: 14px;
+    color: rgba(255,255,255,0.65);
+    margin-bottom: 22px;
+    max-width: 460px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.65;
+    position: relative;
+    z-index: 1;
+  }
+  .cta-btn {
+    display: inline-block;
+    background: linear-gradient(135deg, var(--gold) 0%, #E8C060 100%);
+    color: var(--plum-dark);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    padding: 14px 32px;
+    border-radius: 6px;
+    text-decoration: none;
+    box-shadow: 0 4px 20px rgba(201,168,76,0.3);
+    position: relative;
+    z-index: 1;
+    border: none;
+    cursor: pointer;
+  }
+
+  /* ─── PROGRESS BAR ─── */
+  .progress-bar-wrap {
+    background: var(--white);
+    border-bottom: 1px solid var(--border);
+    padding: 10px 32px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  .progress-label { font-size: 11px; color: var(--text-light); white-space: nowrap; font-weight: 500; }
+  .progress-track {
+    flex: 1;
+    height: 5px;
+    background: var(--cream-dark);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  .progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--plum), var(--rose));
+    border-radius: 3px;
+    transition: width 0.4s ease;
+  }
+  .progress-pct { font-size: 11px; font-weight: 600; color: var(--plum); white-space: nowrap; }
+
+  /* ─── FOOTER ─── */
+  .site-footer {
+    background: var(--plum-dark);
+    color: rgba(255,255,255,0.45);
+    text-align: center;
+    padding: 28px 32px;
+    font-size: 12px;
+    line-height: 1.7;
+  }
+  .site-footer strong { color: var(--gold); }
+
+  /* ─── ANIMATIONS ─── */
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(16px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .day-panel.active > * {
+    animation: fadeUp 0.35s ease both;
+  }
+  .day-panel.active > *:nth-child(2) { animation-delay: 0.05s; }
+  .day-panel.active > *:nth-child(3) { animation-delay: 0.10s; }
+  .day-panel.active > *:nth-child(4) { animation-delay: 0.15s; }
+  .day-panel.active > *:nth-child(5) { animation-delay: 0.20s; }
+  .day-panel.active > *:nth-child(6) { animation-delay: 0.25s; }
+</style>
+</head>
+<body>
+
+<!-- ═══════════ HERO ═══════════ -->
+<section class="hero">
+  <div class="hero-badge">✦ Free Download · No Commitment Required</div>
+  <div class="hero-eyebrow">Thrive Phase</div>
+  <h1 class="hero-title">Start Your Reset with the<br><em>Free 5-Day Guide</em></h1>
+  <p class="hero-sub">The complete introduction to hormonal health coaching — nutrition basics, cycle syncing, somatic exercises, and the hormone quiz in one free guide. For every woman, at every stage.</p>
+  <div class="hero-pills">
+    <span class="hero-pill">🥗 Nutrition Basics</span>
+    <span class="hero-pill">🔄 Cycle Syncing</span>
+    <span class="hero-pill">🧘 Somatic Exercises</span>
+    <span class="hero-pill">📝 Hormone Quiz</span>
+    <span class="hero-pill">💊 Supplement Guide</span>
+    <span class="hero-pill">🌿 Essential Oil Rituals</span>
+  </div>
+  <button class="hero-cta" onclick="document.querySelector('.day-nav').scrollIntoView({behavior:'smooth'})">Begin Your 5-Day Reset →</button>
+  <div class="hero-note">Scroll down to start Day 1 — your reset begins now.</div>
+</section>
+
+<!-- ═══════════ NAV ═══════════ -->
+<nav class="day-nav" id="dayNav">
+  <button class="day-btn active" onclick="showDay(1,this)"><span class="day-num">1</span> Foundation</button>
+  <button class="day-btn" onclick="showDay(2,this)"><span class="day-num">2</span> Nutrition</button>
+  <button class="day-btn" onclick="showDay(3,this)"><span class="day-num">3</span> Movement</button>
+  <button class="day-btn" onclick="showDay(4,this)"><span class="day-num">4</span> Mind & Ritual</button>
+  <button class="day-btn" onclick="showDay(5,this)"><span class="day-num">5</span> Hormone Quiz</button>
+</nav>
+
+<div class="progress-bar-wrap">
+  <span class="progress-label">Your Progress</span>
+  <div class="progress-track"><div class="progress-fill" id="progressFill" style="width:20%"></div></div>
+  <span class="progress-pct" id="progressPct">Day 1 of 5</span>
+</div>
+
+<div class="content-area">
+
+<!-- ═══════════ DAY 1 ═══════════ -->
+<div class="day-panel active" id="day-1">
+
+  <div class="day-header">
+    <div class="day-number-badge"><span class="d-label">Day</span><span class="d-num">1</span></div>
+    <div class="day-header-text">
+      <div class="day-eyebrow">The Foundation</div>
+      <div class="day-title">Understanding Your <em>Hormonal Blueprint</em></div>
+      <div class="day-tagline">What hormones actually are, why they go out of balance, and the four root causes every woman needs to know — regardless of age.</div>
+    </div>
+  </div>
+  <div class="divider"></div>
+
+  <div class="day-intro">
+    Welcome to your reset. Before we change what you eat, how you move, or what supplements you take, we need to understand the terrain. Hormonal imbalance doesn't come out of nowhere — it has root causes, and those causes are consistent whether you're 28 or 58. Today is about understanding your body, not blaming it.
+  </div>
+
+  <div class="section-label">What Are Hormones, Really?</div>
+  <div class="content-block">
+    <div class="block-header plum">
+      <span class="block-icon">🔬</span>
+      <span class="block-title">Your Hormonal Communication System</span>
+    </div>
+    <div class="block-body">
+      <p>Hormones are chemical messengers produced by your endocrine glands — the ovaries, adrenal glands, thyroid, pancreas, and hypothalamus — that travel through your bloodstream and tell every cell in your body what to do. They regulate your energy, mood, metabolism, sleep, hunger, libido, inflammation, and immune function. When even one hormone is off, the entire system feels it.</p>
+      <p>The most important thing to understand: <strong>hormones work in relationships with each other.</strong> Estrogen and progesterone balance each other. Cortisol suppresses thyroid function. Insulin affects estrogen. You can't chase a single hormone in isolation — the goal is always the ecosystem.</p>
+    </div>
+  </div>
+
+  <div class="section-label">The Four Root Causes</div>
+  <div class="two-col">
+    <div class="content-block" style="margin-bottom:0;">
+      <div class="block-header rose">
+        <span class="block-icon">😰</span>
+        <span class="block-title">Chronic Stress</span>
+      </div>
+      <div class="block-body">
+        <p>When cortisol (your primary stress hormone) is chronically elevated, it disrupts every other hormone downstream. Cortisol directly lowers progesterone, suppresses thyroid function, destabilizes blood sugar, and creates the foundation for estrogen dominance. Most women's hormonal issues trace back to HPA axis dysregulation — the stress response system — before anything else.</p>
+        <p><strong>Signs this is you:</strong> Wired-but-tired, poor sleep despite exhaustion, afternoon crashes, feeling overwhelmed daily, difficulty recovering from workouts.</p>
+      </div>
+    </div>
+    <div class="content-block" style="margin-bottom:0;">
+      <div class="block-header gold">
+        <span class="block-icon">🍞</span>
+        <span class="block-title">Blood Sugar Instability</span>
+      </div>
+      <div class="block-body">
+        <p>Every blood sugar spike triggers an insulin response. Chronically elevated insulin drives androgen (testosterone) excess, disrupts ovulation, promotes fat storage around the midsection, and worsens inflammation. Blood sugar instability is the most underrecognized driver of hormonal symptoms across all life phases.</p>
+        <p><strong>Signs this is you:</strong> Cravings (especially afternoon and evening), energy crashes, irritability when hungry, difficulty losing weight, skin issues like cystic acne.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="two-col" style="margin-top:16px;">
+    <div class="content-block" style="margin-bottom:0;">
+      <div class="block-header sage">
+        <span class="block-icon">🦠</span>
+        <span class="block-title">Gut & Liver Burden</span>
+      </div>
+      <div class="block-body">
+        <p>Your liver is responsible for deactivating used estrogen and preparing it for elimination. Your gut — specifically the estrobolome (estrogen-metabolizing bacteria) — determines whether that estrogen leaves the body or gets reactivated and recirculated. A sluggish liver or dysbiotic gut means used estrogen recirculates, driving estrogen dominance regardless of your life phase.</p>
+        <p><strong>Signs this is you:</strong> Bloating, constipation, heavy periods, breast tenderness, hormonal acne, difficulty tolerating alcohol.</p>
+      </div>
+    </div>
+    <div class="content-block" style="margin-bottom:0;">
+      <div class="block-header plum">
+        <span class="block-icon">💤</span>
+        <span class="block-title">Sleep Deprivation</span>
+      </div>
+      <div class="block-body">
+        <p>Growth hormone is released during deep sleep. Cortisol is calibrated during sleep. Leptin and ghrelin (hunger hormones) are regulated during sleep. Even mild sleep restriction (6 vs. 8 hours) measurably raises cortisol, worsens insulin sensitivity, and reduces progesterone. Sleep is not a lifestyle choice — it is the foundation that all hormone production depends on.</p>
+        <p><strong>Signs this is you:</strong> Less than 7 hours regularly, poor sleep quality, waking between 1–3am, relying on caffeine to function, difficulty falling asleep despite tiredness.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-label" style="margin-top:28px;">Today's Practice</div>
+  <div class="content-block">
+    <div class="block-header sage">
+      <span class="block-icon">📝</span>
+      <span class="block-title">Your Symptom Awareness Map</span>
+      <span class="block-tag">10 Minutes</span>
+    </div>
+    <div class="block-body">
+      <p>Before you can rebalance your hormones, you need to know where you are starting. Take 10 minutes to write down your answers to these questions — this becomes your baseline.</p>
+      <ul class="tip-list">
+        <li>What are my top 3 symptoms right now? (fatigue, mood, sleep, weight, skin, digestion, libido, brain fog — be specific)</li>
+        <li>When did these symptoms start or worsen? What was happening in my life at that time?</li>
+        <li>What does my sleep look like honestly? What time do I go to bed, wake up, and how do I feel in the morning?</li>
+        <li>How stable is my energy across the day? Where do I crash?</li>
+        <li>How would I rate my daily stress level 1–10, and what is driving it?</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section-label">Day 1 Checklist</div>
+  <div class="content-block">
+    <div class="block-body">
+      <ul class="checklist" id="cl-1">
+        <li onclick="toggleCheck(this)"><div class="check-box"></div><span>Read the four root causes and identify which resonate most</span></li>
+        <li onclick="toggleCheck(this)"><div class="check-box"></div><span>Complete your Symptom Awareness Map (10 min journaling)</span></li>
+        <li onclick="toggleCheck(this)"><div class="check-box"></div><span>Drink 2 full glasses of water before your first coffee today</span></li>
+        <li onclick="toggleCheck(this)"><div class="check-box"></div><span>Get 10 minutes of morning sunlight (eyes open, outside)</span></li>
+        <li onclick="toggleCheck(this)"><div class="check-box"></div><span>Commit to your phone-free morning starting tomorrow</span></li>
+        <li onclick="toggleCheck(this)"><div class="check-box"></div><span>Set a bedtime alarm for tonight — 30 minutes earlier than usual</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="tip-box">
+    <strong>A note before you begin:</strong> Hormonal rebalancing is not a 5-day fix — it is a 90-day minimum commitment. This guide gives you the foundation. The women who see lasting results are the ones who understand <em>why</em> these practices work, not just what to do. That understanding is what makes the habits stick when life gets hard.
+  </div>
+
+</div>
+
+<!-- ═══════════ DAY 2 ═══════════ -->
+<div class="day-panel" id="day-2">
+
+  <div class="day-header">
+    <div class="day-number-badge"><span class="d-label">Day</span><span class="d-num">2</span></div>
+    <div class="day-header-text">
+      <div class="day-eyebrow">Nutrition Basics</div>
+      <div class="day-title">Eating to <em>Balance Your Hormones</em></div>
+      <div class="day-tagline">The foods that heal hormonal imbalance, the ones that worsen it, and the three non-negotiable eating principles that work for every woman at every life stage.</div>
+    </div>
+  </div>
+  <div class="divider"></div>
+
+  <div class="day-intro">
+    Food is hormonal information. Every meal either moves your hormones toward balance or away from it. The good news: you don't need a perfect diet — you need to understand a few high-leverage principles and apply them consistently. Today covers the foundation that every woman, regardless of age or life phase, can implement starting today.
+  </div>
+
+  <div class="section-label">The 3 Non-Negotiable Principles</div>
+
+  <div class="content-block">
+    <div class="block-header plum">
+      <span class="block-icon">🥩</span>
+      <span class="block-title">Principle 1 — Protein at Every Meal</span>
+      <span class="block-tag">Foundational</span>
+    </div>
+    <div class="block-body">
+      <p>Protein is the single most powerful macronutrient for hormonal health. It stabilizes blood sugar (preventing the insulin spikes that drive hormonal chaos), provides the amino acid building blocks for hormone production, supports the liver's estrogen detoxification pathways, and triggers satiety hormones that prevent overeating.</p>
+      <p><strong>Target:</strong> 25–40g of protein per meal. Front-load at breakfast — this is the meal most women under-protein, and it sets your blood sugar and cortisol rhythm for the entire day. Eggs, Greek yogurt, smoked salmon, cottage cheese, or a protein smoothie are fast options.</p>
+      <p><strong>Why this matters for hormones specifically:</strong> Without adequate protein, the liver cannot produce sufficient glutathione — the master antioxidant required for estrogen detoxification. Low protein = poor estrogen clearance = estrogen dominance, regardless of your life phase.</p>
+    </div>
+  </div>
+
+  <div class="content-block">
+    <div class="block-header rose">
+      <span class="block-icon">🩸</span>
+      <span class="block-title">Principle 2 — Stabilize Blood Sugar First</span>
+      <span class="block-tag">High Priority</span>
+    </div>
+    <div class="block-body">
+      <p>Never eat carbohydrates alone. Always pair any carbohydrate — fruit, bread, rice, oats, even root vegetables — with protein, fat, or fiber. This single habit reduces the insulin spike from that food by 30–50%, directly lowering the insulin-driven hormonal disruption that underlies most hormonal symptoms.</p>
+      <p><strong>The order matters too:</strong> Eating fiber and protein before carbohydrates (veggies and protein first, then grains or fruit) measurably reduces the blood sugar spike of that carbohydrate. This is not about avoiding carbohydrates — it is about managing how they enter your bloodstream.</p>
+      <p><strong>The most impactful habit you can start today:</strong> Have a 10-minute walk after your two largest meals. Post-meal walking reduces blood glucose by up to 30% — more effective than metformin in some studies, and free.</p>
+    </div>
+  </div>
+
+  <div class="content-block">
+    <div class="block-header gold">
+      <span class="block-icon">🥦</span>
+      <span class="block-title">Principle 3 — Feed Your Estrobolome Daily</span>
+      <span class="block-tag">Estrogen Balance</span>
+    </div>
+    <div class="block-body">
+      <p>The estrobolome is the community of gut bacteria responsible for metabolizing estrogen. A healthy estrobolome ensures that used estrogen is properly deactivated and eliminated. A dysbiotic gut (from antibiotics, stress, poor diet, or alcohol) allows bacteria to reactivate estrogen and send it back into circulation — this is called enterohepatic recirculation, and it is a primary driver of estrogen dominance at any age.</p>
+      <p><strong>Daily targets:</strong> 25–35g of fiber from diverse plant sources (aim for 30 different plant foods per week). One serving of fermented food daily: kefir, sauerkraut, kimchi, miso, or kombucha. Cruciferous vegetables (broccoli, cauliflower, Brussels sprouts, kale) at least 3× per week — they contain DIM and sulforaphane, which directly support estrogen detoxification in the liver.</p>
+    </div>
+  </div>
+
+  <div class="section-label">Eat More · Eat Less</div>
+  <div class="two-col">
+    <div class="food-card eat">
+      <div class="food-card-label">✓ Prioritize These</div>
+      <div class="food-card-title">Hormone-Supporting Foods</div>
+      <div class="food-items">
+        <span class="food-tag">Eggs</span>
+        <span class="food-tag">Fatty fish</span>
+        <span class="food-tag">Broccoli</span>
+        <span class="food-tag">Kale</span>
+        <span class="food-tag">Flaxseed</span>
+        <span class="food-tag">Avocado</span>
+        <span class="food-tag">Pumpkin seeds</span>
+        <span class="food-tag">Walnuts</span>
+        <span class="food-tag">Fermented foods</span>
+        <span class="food-tag">Leafy greens</span>
+        <span class="food-tag">Colourful vegetables</span>
+        <span class="food-tag">Lentils</span>
+        <span class="food-tag">Wild salmon</span>
+        <span class="food-tag">Olive oil</span>
+        <span class="food-tag">Berries</span>
+        <span class="food-tag">Dark chocolate 85%+</span>
+        <span class="food-tag">Sweet potato</span>
+        <span class="food-tag">Tempeh</span>
+      </div>
+    </div>
+    <div class="food-card limit">
+      <div class="food-card-label">↓ Reduce These</div>
+      <div class="food-card-title">Hormonal Disruptors</div>
+      <div class="food-items">
+        <span class="food-tag">Ultra-processed foods</span>
+        <span class="food-tag">Refined sugar</span>
+        <span class="food-tag">Alcohol</span>
+        <span class="food-tag">Industrial seed oils</span>
+        <span class="food-tag">Soy (unfermented)</span>
+        <span class="food-tag">Conventional dairy</span>
+        <span class="food-tag">Breakfast cereals</span>
+        <span class="food-tag">Flavoured yogurts</span>
+        <span class="food-tag">Diet sodas</span>
+        <span class="food-tag">Plastic-packaged food (heated)</span>
+        <span class="food-tag">Excess caffeine</span>
+        <span class="food-tag">High-fructose corn syrup</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-label" style="margin-top:8px;">The Hormone-Supporting Plate</div>
+  <div class="content-block">
+    <div class="block-header sage">
+      <span class="block-icon">🍽️</span>
+      <span class="block-title">Build Every Meal This Way</span>
+    </div>
+    <div class="block-body">
+      <div class="steps">
+        <div class="step-item">
+          <div class="step-num">½</div>
+          <div class="step-content">
+            <div class="step-title">Half Your Plate — Non-Starchy Vegetables</div>
+            <div class="step-detail">Leafy greens, broccoli, zucchini, peppers, cucumber, asparagus, artichoke. These provide fiber for estrogen clearance, phytonutrients for liver detoxification, and micronutrients for hormone production. Variety matters — aim for color.</div>
+          </div>
+        </div>
+        <div class="step-item">
+          <div class="step-num">¼</div>
+          <div class="step-content">
+            <div class="step-title">Quarter — Quality Protein</div>
+            <div class="step-detail">Eggs, wild fish, organic chicken, grass-fed beef, lentils, tempeh, Greek yogurt. 25–40g per meal. This is the anchor that stabilizes everything else on the plate.</div>
+          </div>
+        </div>
+        <div class="step-item">
+          <div class="step-num">¼</div>
+          <div class="step-content">
+            <div class="step-title">Quarter — Complex Carbs or Healthy Fats</div>
+            <div class="step-detail">Sweet potato, quinoa, brown rice, oats, avocado, olive oil, nuts, seeds. Never a carbohydrate alone. Healthy fats are essential for steroid hormone production — every sex hormone (estrogen, progesterone, testosterone) is made from cholesterol.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-label">Day 2 Checklist</div>
+  <div class="content-block">
+    <div class="block-body">
+      <ul class="checklist" id="cl-2">
+        <li onclick="toggleCheck(this)"><div class="check-box"></div><span>Add protein to your breakfast today — aim for 25g minimum</span></li>
+        <li onclick="toggleCheck(this)"><div class="check-box"></div><span>Pair every carbohydrate with protein, fat, or fiber at each meal</span></li>
+        <li onclick="toggleCheck(this)"><div class="check-box"></div><span>Include a cruciferous vegetable at one meal (broccoli, kale, cauliflower)</span></li>
+        <li onclick="toggleCheck(this)"><div class="check-box"></div><span>Take a 10-minute walk after your largest meal</span></li>
+        <li onclick="toggleCheck(this)"><div class="check-box"></div><span>Add one fermented food today (kefir, sauerkraut, kimchi, miso)</span></li>
+        <li onclick="toggleCheck(this)"><div class="check-box"></div><span>Reduce or eliminate alcohol today — notice how you feel tomorrow morning</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="callout">
+    <strong>The supplement that supports everything on this page:</strong> Magnesium glycinate 300–400mg at bedtime. Magnesium is required for liver estrogen detoxification, progesterone production, blood sugar regulation, and sleep quality. It's depleted by stress, sugar, alcohol, and intense exercise — meaning most women are chronically deficient. If you start nothing else this week, start magnesium tonight.
+  </div>
+
+</div>
+
+<!-- ═══════════ DAY 3 ═══════════ -->
+<div class="day-panel" id="day-3">
+
+  <div class="day-header">
+    <div class="day-number-badge"><span class="d-label">Day</span><span class="d-num">3</span></div>
+    <div class="day-header-text">
+      <div class="day-eyebrow">Movement & Somatic Healing</div>
+      <div class="day-title">Moving in a Way That <em>Heals Your Hormones</em></div>
+      <div class="day-tagline">Why the wrong exercise makes hormonal imbalance worse — and the movement principles that support every woman's endocrine system, at every age.</div>
+    </div>
+  </div>
+  <div class="divider"></div>
+
+  <div class="day-intro">
+    Exercise is one of the most powerful hormonal interventions available — but only when it's the right kind, at the right intensity, for your current hormonal state. Many women are unknowingly using exercise as a stressor rather than a healer. Today we fix that, and add two somatic practices that work on the nervous system — the root of hormonal regulation.
+  </div>
+
+  <div class="section-label">Exercise & Your Hormones</div>
+
+  <div class="two-col">
+    <div class="content-block" style="margin-bottom:0;">
+      <div class="block-header sage">
+        <span class="block-icon">🏋️</span>
+        <span class="block-title">Strength Training</span>
+        <span class="block-tag" style="font-size:9px;">Non-Negotiable</span>
+      </div>
+      <div class="block-body">
+        <p><strong>Why it's the most important exercise for hormonal health:</strong> Muscle is the body's primary insulin sink — the more muscle you have, the more stable your blood sugar. Resistance training improves insulin sensitivity for 24–48 hours post-workout. It boosts testosterone and growth hormone. It builds the bone density that estrogen used to protect. It preserves lean mass that slows metabolic decline.</p>
+        <p><strong>Minimum effective dose:</strong> 3× per week, 30–45 minutes. Focus on compound movements: squats, deadlifts, rows, presses. Progressive overload — adding weight or reps over time — is what drives the hormonal benefit.</p>
+      </div>
+    </div>
+    <div class="content-block" style="margin-bottom:0;">
+      <div class="block-header gold">
+        <span class="block-icon">🚶</span>
+        <span class="block-title">Daily Walking</span>
+        <span class="block-tag" style="font-size:9px;">Daily Medicine</span>
+      </div>
+      <div class="block-body">
+        <p><strong>The most underrated hormonal intervention:</strong> 30–45 minutes of walking daily reduces cortisol, improves insulin sensitivity, supports lymphatic flow (estrogen clearance), boosts mood via serotonin and dopamine, and improves sleep quality — all without triggering the cortisol spike of high-intensity exercise.</p>
+        <p><strong>Upgrade it:</strong> Walk outside for the light exposure. Walk on varied terrain when possible (grass, trails, hills) — this stimulates proprioception and the nervous system in ways flat surfaces don't. Walk after meals for blood sugar management. This is not optional fitness — it is daily hormonal medicine.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="callout" style="margin-top:16px;">
+    <strong>The cortisol trap:</strong> Chronic high-intensity exercise (daily HIIT, long cardio sessions, intense classes without adequate recovery) elevates cortisol, suppresses progesterone, disrupts the menstrual cycle, and stalls weight loss despite high effort. If you are exhausted, gaining weight despite exercise, losing your period, or feeling worse after workouts — your body is telling you it needs less intensity and more recovery, not more effort.
+  </div>
+
+  <div class="section-label">Somatic Practices — Working at the Root</div>
+  <div class="content-block">
+    <div class="block-header plum">
+      <span class="block-icon">🫁</span>
+      <span class="block-title">Practice 1 — Physiological Sigh</span>
+      <span class="block-tag">2 Minutes · Anytime</span>
+    </div>
+    <div class="block-body">
+      <p>The physiological sigh is the fastest evidence-based tool for downregulating the stress response in real time. It is the only breathing pattern that immediately and measurably lowers cortisol — more effective than any other single breath technique for acute stress reduction.</p>
+      <div class="steps">
+        <div class="step-item">
+          <div class="step-num">1</div>
+          <div class="step-content">
+            <div class="step-title">Double Inhale Through the Nose</div>
+            <div class="step-detail">Take a full inhale through the nose, then immediately take a second short sniff on top of it to fully inflate the lungs. This re-inflates the tiny air sacs (alveoli) that collapse under stress.</div>
+          </div>
+        </div>
+        <div class="step-item">
+          <div class="step-num">2</div>
+          <div class="step-content">
+            <div class="step-title">Long, Slow Exhale Through the Mouth</div>
+            <div class="step-detail">Release the breath slowly and completely through the mouth — as long as possible. The extended exhale activates the vagus nerve and produces an immediate parasympathetic (rest-and-digest) shift.</div>
+          </div>
+        </div>
+        <div class="step-item">
+          <div class="step-num">3</div>
+          <div class="step-content">
+            <div class="step-title">Repeat 1–3 Times</div>
+            <div class="step-detail">Even one physiological sigh measurably reduces heart rate and cortisol within 30 seconds. Use this in traffic, before difficult conversations, during a stressful workday, or whenever you feel the stress response activating.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="content-block">
+    <div class="block-header rose">
+      <span class="block-icon">🌿</span>
+      <span class="block-title">Practice 2 — Abdominal Self-Massage for Hormonal Lymphatic Flow</span>
+      <span class="block-tag">5 Minutes · Daily</span>
+    </div>
+    <div class="block-body">
+      <p>The lymphatic system has no pump of its own — it relies on muscle movement, breathing, and manual pressure to circulate. Lymphatic congestion in the pelvis and abdomen is a significant but rarely addressed factor in hormonal imbalance: it slows estrogen clearance, contributes to pelvic inflammation, and worsens menstrual symptoms. This practice costs nothing and works for every woman at every age.</p>
+      <div class="steps">
+        <div class="step-item">
+          <div class="step-num">1</div>
+          <div class="step-content">
+            <div class="step-title">Warm Your Hands and Lie Down</div>
+            <div class="step-detail">Warm your palms by rubbing them together. Lie on your back with knees bent, feet flat. Apply a few drops of warm castor oil or any carrier oil if available — this is optional but amplifies the benefit.</div>
+          </div>
+        </div>
+        <div class="step-item">
+          <div class="step-num">2</div>
+          <div class="step-content">
+            <div class="step-title">Breathe Into the Abdomen (2 min)</div>
+            <div class="step-detail">Place both hands below the navel. Breathe slowly and deeply, directing the breath into your lower belly so your hands rise on the inhale. This diaphragmatic breathing is itself lymphatic-moving — the diaphragm acts as a pump for the abdominal lymph channels.</div>
+          </div>
+        </div>
+        <div class="step-item">
+          <div class="step-num">3</div>
+          <div class="step-content">
+            <div class="step-title">Clockwise Abdominal Circles (3 min)</div>
+            <div class="step-detail">Using gentle but firm pressure, massage the abdomen in clockwise circles (following the direction of the large intestine). Begin at the lower right, move up toward the right ribcage, across the upper abdomen, and down the left side. This supports peristalsis, lymphatic flow, and pelvic circulation.</div>
+          </div>
+        </div>
+      </div>
+      <p style="margin-top:14px;font-size:13px;color:var(--text-light);font-style:italic;">Note: Skip days 1–3 of menstruation. Ideal timing: morning before rising, or evening before bed.</p>
+    </div>
+  </div>
+
+  <div class="section-label">Day 3 Checklist</div>
+  <div class="content-block">
+    <div class="block-body">
+      <ul class="checklist" id="cl-3">
+        <li onclick="toggleCheck(this)"><div class="check-box"></div><span>Do the physiological sigh 3× today — morning, midday, and evening</span></li>
+        <li onclick="toggleCheck(this)"><div class="check-box"></div><span>Complete the 5-minute abdominal self-massage</span></li>
+        <li onclick="toggleCheck(this)"><div class="check-box"></div><span>Walk for at least 20 minutes today (outside if possible)</span></li>
+        <li onclick="toggleCheck(this)"><div class="check-box"></div><span>Avoid high-intensity exercise today — let your nervous system receive</span></li>
+        <li onclick="toggleCheck(this)"><div class="check-box"></div><span>Assess your current exercise routine: is it stressing or supporting you?</span></li>
+        <li onclick="toggleCheck(this)"><div class="check-box"></div><span>Plan 3 strength training sessions for next week — put them in your calendar</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="tip-box">
+    <strong>On rest days:</strong> Your hormones recover during rest, not during exercise. The adaptation and the hormonal benefit of a workout happen in the 24–48 hours after it — during recovery. Women who train hard every day without scheduled rest are preventing their own hormonal recovery. Rest is not laziness — it is when the work gets done.
+  </div>
+
+</div>
+
+<!-- ═══════════ DAY 4 ═══════════ -->
+<div class="day-panel" id="day-4">
+
+  <div class="day-header">
+    <div class="day-number-badge"><span class="d-label">Day</span><span class="d-num">4</span></div>
+    <div class="day-header-text">
+      <div class="day-eyebrow">Mind, Ritual & Essential Oils</div>
+      <div class="day-title">The Inner Work of <em>Hormonal Healing</em></div>
+      <div class="day-tagline">Stress is the hidden root cause of most hormonal imbalances. Today we address it directly — with mindset, sleep rituals, cycle awareness, and the essential oil practices that support the nervous system from the outside in.</div>
+    </div>
+  </div>
+  <div class="divider"></div>
+
+  <div class="day-intro">
+    You can eat perfectly and exercise correctly — and still have significant hormonal imbalance if your nervous system is stuck in chronic stress mode. The HPA axis (the stress response system) is the master regulator of every other hormonal axis. Today is about the practices that shift you out of sympathetic dominance and into the parasympathetic state where healing actually happens.
+  </div>
+
+  <div class="section-label">Understanding Your Stress Response</div>
+  <div class="content-block">
+    <div class="block-header plum">
+      <span class="block-icon">🧠</span>
+      <span class="block-title">The Cortisol–Hormone Connection</span>
+    </div>
+    <div class="block-body">
+      <p>Cortisol and progesterone are made from the same precursor molecule — pregnenolone. When your body is under chronic stress, it prioritizes cortisol production over progesterone production. This is called <strong>"pregnenolone steal"</strong> — your survival chemistry takes priority over your reproductive and mood chemistry. This is why high-stress periods cause irregular cycles, low libido, sleep disruption, and emotional volatility. It's not psychological — it's biochemical.</p>
+      <p>The goal isn't to eliminate stress — it is to move through it efficiently and return to baseline quickly. The practices below train your nervous system to do exactly that. Each one has a measurable physiological effect: they lower cortisol, increase heart rate variability (HRV), and shift the autonomic nervous system toward parasympathetic dominance.</p>
+    </div>
+  </div>
+
+  <div class="section-label">The Morning Hormonal Ritual</div>
+  <div class="content-block">
+    <div class="block-header gold">
+      <span class="block-icon">🌅</span>
+      <span class="block-title">Your 20-Minute Morning Protocol</span>
+      <span class="block-tag">Daily Non-Negotiable</span>
+    </div>
+    <div class="block-body">
+      <p>The first 20 minutes after waking set your cortisol awakening response — the hormonal tone for the entire day. Done consistently, this protocol reduces baseline cortisol, improves sleep quality, supports weight management, and stabilizes mood across all life phases.</p>
+      <div class="steps">
+        <div class="step-item">
+          <div class="step-num">1</div>
+          <div class="step-content">
+            <div class="step-title">No Phone — First 30 Minutes (Non-Negotiable)</div>
+            <div class="step-detail">Checking your phone within 30 minutes of waking triggers a cortisol and dopamine spike that hijacks your natural cortisol awakening response — locking you into reactive mode for the entire day. Phone stays on airplane mode until after step 4.</div>
+          </div>
+        </div>
+        <div class="step-item">
+          <div class="step-num">2</div>
+          <div class="step-content">
+            <div class="step-title">Morning Light — 10 Minutes Outside</div>
+            <div class="step-detail">Step outside within 30 minutes of waking. Eyes open (not staring at the sun). This sets your circadian clock, calibrates the cortisol awakening response, naturally increases serotonin, and signals the suprachiasmatic nucleus — the master clock that governs every hormonal rhythm in your body.</div>
+          </div>
+        </div>
+        <div class="step-item">
+          <div class="step-num">3</div>
+          <div class="step-content">
+            <div class="step-title">Hydration Before Caffeine</div>
+            <div class="step-detail">Cortisol peaks naturally within the first 30–45 minutes of waking. Caffeine on top of this peak amplifies the cortisol spike unnecessarily and accelerates adrenal depletion over time. Drink 16oz of water first. Delay caffeine at least 60–90 minutes after waking for optimal cortisol rhythm.</div>
+          </div>
+        </div>
+        <div class="step-item">
+          <div class="step-num">4</div>
+          <div class="step-content">
+            <div class="step-title">5-Minute Intention — Journal or Breathwork</div>
+            <div class="step-detail">Before reactive tasks begin, set one intention for the day. Use 4-7-8 breathing (inhale 4, hold 7, exhale 8) × 4 rounds, or write 3 lines: what you feel, what you're grateful for, and one thing you're choosing today. This shifts the prefrontal cortex online before the amygdala takes over.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-label">Essential Oils for Hormonal Support</div>
+  <div class="content-block">
+    <div class="block-header rose">
+      <span class="block-icon">🌿</span>
+      <span class="block-title">Three Foundational Blends — Every Woman, Every Phase</span>
+    </div>
+    <div class="block-body">
+      <p>Essential oils work through the olfactory system — the only sensory system with a direct, unmediated connection to the limbic brain (where emotional and hormonal regulation lives). Inhaled aromatic compounds trigger measurable changes in cortisol, serotonin, GABA, and dopamine. These three blends address the most universal hormonal concerns.</p>
+    </div>
+  </div>
+
+  <div class="two-col">
+    <div class="content-block" style="margin-bottom:0;">
+      <div class="block-header" style="background:linear-gradient(135deg,#3A6A3E,var(--sage));">
+        <span class="block-icon">🌱</span>
+        <span class="block-title">Calm & Ground</span>
+        <span class="block-tag">Evening Roller</span>
+      </div>
+      <div class="block-body">
+        <p style="font-size:13px;background:var(--cream-dark);border-radius:8px;padding:10px 14px;margin-bottom:12px;font-family:'DM Sans',sans-serif;">🌿 Lavender 4 drops · Frankincense 3 drops · Cedarwood 3 drops · Vetiver 2 drops · 10ml Jojoba</p>
+        <p>Apply to chest, wrists, and temples at bedtime and during stress peaks. Lavender (linalool) modulates GABA-A receptors. Frankincense supports the limbic system and reduces cortisol. Vetiver slows neural activity and reduces amygdala reactivity. Cedarwood's cedrol promotes drowsiness.</p>
+        <div class="oil-benefits" style="display:flex;flex-wrap:wrap;gap:5px;margin-top:10px;">
+          <span style="background:var(--sage-pale);color:#2A5A2E;font-size:11px;padding:3px 10px;border-radius:20px;border:1px solid var(--sage-light);">Cortisol</span>
+          <span style="background:var(--sage-pale);color:#2A5A2E;font-size:11px;padding:3px 10px;border-radius:20px;border:1px solid var(--sage-light);">Sleep onset</span>
+          <span style="background:var(--sage-pale);color:#2A5A2E;font-size:11px;padding:3px 10px;border-radius:20px;border:1px solid var(--sage-light);">Anxiety</span>
+        </div>
+      </div>
+    </div>
+    <div class="content-block" style="margin-bottom:0;">
+      <div class="block-header" style="background:linear-gradient(135deg,#8A6820,var(--gold));">
+        <span class="block-icon">⚡</span>
+        <span class="block-title">Energize & Focus</span>
+        <span class="block-tag">Morning Roller</span>
+      </div>
+      <div class="block-body">
+        <p style="font-size:13px;background:var(--cream-dark);border-radius:8px;padding:10px 14px;margin-bottom:12px;">🌿 Rosemary 4 drops · Peppermint 3 drops · Wild Orange 3 drops · Frankincense 2 drops · 10ml FCO</p>
+        <p>Apply to wrists and back of neck each morning. Rosemary 1,8-cineole measurably improves cognitive speed and working memory within minutes of inhalation. Wild Orange elevates dopamine. Peppermint activates the trigeminal nerve for sustained alertness without cortisol cost.</p>
+        <div style="display:flex;flex-wrap:wrap;gap:5px;margin-top:10px;">
+          <span style="background:var(--gold-pale);color:#5A4010;font-size:11px;padding:3px 10px;border-radius:20px;border:1px solid var(--gold-light);">Energy</span>
+          <span style="background:var(--gold-pale);color:#5A4010;font-size:11px;padding:3px 10px;border-radius:20px;border:1px solid var(--gold-light);">Brain clarity</span>
+          <span style="background:var(--gold-pale);color:#5A4010;font-size:11px;padding:3px 10px;border-radius:20px;border:1px solid var(--gold-light);">Focus</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="content-block" style="margin-top:16px;">
+    <div class="block-header" style="background:linear-gradient(135deg,var(--plum-dark),var(--plum-mid));">
+      <span class="block-icon">💜</span>
+      <span class="block-title">Balance & Mood Lift</span>
+      <span class="block-tag">Anytime Roller</span>
+    </div>
+    <div class="block-body">
+      <p style="font-size:13px;background:var(--cream-dark);border-radius:8px;padding:10px 14px;margin-bottom:12px;">🌿 Bergamot 4 drops · Clary Sage 3 drops · Geranium 3 drops · Wild Orange 2 drops · 10ml Jojoba</p>
+      <p>Apply to chest and inner wrists when mood is low, irritable, or flat. Bergamot contains linalool — a compound that activates both GABA-A and serotonin pathways, producing measurable mood improvement within 5–10 minutes of inhalation. Clary Sage has mild phytoestrogen-like activity through sclareol, providing gentle hormonal modulation. Geranium supports adrenal function — your primary stress-response gland.</p>
+      <div style="display:flex;flex-wrap:wrap;gap:5px;margin-top:10px;">
+        <span style="background:var(--rose-pale);color:var(--plum);font-size:11px;padding:3px 10px;border-radius:20px;border:1px solid var(--rose-light);">Mood</span>
+        <span style="background:var(--rose-pale);color:var(--plum);font-size:11px;padding:3px 10px;border-radius:20px;border:1px solid var(--rose-light);">Irritability</span>
+        <span style="background:var(--rose-pale);color:var(--plum);font-size:11px;padding:3px 10px;border-radius:20px;border:1px solid var(--rose-light);">Adrenal support</span>
+        <span style="background:var(--rose-pale);color:var(--plum);font-size:11px;padding:3px 10px;border-radius:20px;border:1px solid var(--rose-light);">Hormonal balance</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-label">Tonight's Sleep Ritual</div>
+  <div class="content-block">
+    <div class="block-header plum">
+      <span class="block-icon">🌙</span>
+      <span class="block-title">The Hormonal Wind-Down</span>
+      <span class="block-tag">Begin 60 Min Before Bed</span>
+    </div>
+    <div class="block-body">
+      <div class="steps">
+        <div class="step-item">
+          <div class="step-num">1</div>
+          <div class="step-content">
+            <div class="step-title">Screens Off at 9pm — Non-Negotiable</div>
+            <div class="step-detail">Blue light suppresses melatonin production for 2–3 hours. Melatonin is not just a sleep hormone — it is a potent antioxidant and plays a direct role in ovarian function, cortisol regulation, and immune health. This one habit is free and has compounding returns.</div>
+          </div>
+        </div>
+        <div class="step-item">
+          <div class="step-num">2</div>
+          <div class="step-content">
+            <div class="step-title">Magnesium Glycinate 400mg</div>
+            <div class="step-detail">Take it with a small snack or glass of water at 9pm — it takes about 45 minutes to produce the calming GABA-like effect. This is the most evidence-supported, safest, and most impactful sleep supplement available. Glycinate form avoids the laxative effect of other forms.</div>
+          </div>
+        </div>
+        <div class="step-item">
+          <div class="step-num">3</div>
+          <div class="step-content">
+            <div class="step-title">Apply Calm & Ground Roller + Diffuse Lavender</div>
+            <div class="step-detail">Apply the Calm & Ground blend to chest, wrists, and temples. Diffuse Lavender 3 drops + Cedarwood 3 drops in the bedroom. The olfactory signal begins preparing the nervous system for sleep 30 minutes before you lie down — priming the parasympathetic response.</div>
+          </div>
+        </div>
+        <div class="step-item">
+          <div class="step-num">4</div>
+          <div class="step-content">
+            <div class="step-title">4-7-8 Breathing in Bed</div>
+            <div class="step-detail">Inhale through nose for 4 counts. Hold for 7. Exhale through mouth for 8. Repeat 4 cycles. This is the single most effective breathing pattern for sleep onset — the extended hold and exhale activate the vagus nerve and produce the parasympathetic shift needed for the brain to release into sleep.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-label">Day 4 Checklist</div>
+  <div class="content-block">
+    <div class="block-body">
+      <ul class="checklist" id="cl-4">
+        <li onclick="toggleCheck(this)"><div class="check-box"></div><span>No phone for the first 30 minutes after waking</span></li>
+        <li onclick="toggleCheck(this)"><div class="check-box"></div><span>10 minutes of morning sunlight before coffee</span></li>
+        <li onclick="toggleCheck(this)"><div class="check-box"></div><span>Delay your first coffee 60–90 minutes after waking</span></li>
+        <li onclick="toggleCheck(this)"><div class="check-box"></div><span>Try one essential oil practice today (morning roller, evening roller, or diffuser)</span></li>
+        <li onclick="toggleCheck(this)"><div class="check-box"></div><span>Screens off by 9pm tonight</span></li>
+        <li onclick="toggleCheck(this)"><div class="check-box"></div><span>Take magnesium glycinate 400mg at 9pm</span></li>
+        <li onclick="toggleCheck(this)"><div class="check-box"></div><span>Do 4-7-8 breathing in bed before sleep</span></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="journal-block">
+    <div class="journal-block-title">Tonight's Journal Prompt</div>
+    <div class="journal-block-sub">5 minutes · In bed or before screens off</div>
+    <ul class="journal-prompts">
+      <li>What does my current stress load actually look like — work, relationships, internal pressure? Where is my cortisol coming from?</li>
+      <li>What one thing, if I stopped doing it or did it differently, would most reduce my daily stress?</li>
+      <li>What does genuine rest feel like in my body? When did I last experience it?</li>
+    </ul>
+  </div>
+
+</div>
+
+<!-- ═══════════ DAY 5 ═══════════ -->
+<div class="day-panel" id="day-5">
+
+  <div class="day-header">
+    <div class="day-number-badge"><span class="d-label">Day</span><span class="d-num">5</span></div>
+    <div class="day-header-text">
+      <div class="day-eyebrow">Your Hormone Quiz</div>
+      <div class="day-title">Identify Your <em>Hormonal Pattern</em></div>
+      <div class="day-tagline">Based on your symptoms, this quiz identifies your primary hormonal imbalance — estrogen dominance, progesterone deficiency, androgen excess, or cortisol dysregulation — and gives you your personalized next steps.</div>
+    </div>
+  </div>
+  <div class="divider"></div>
+
+  <div class="quiz-intro">
+    <h3>Your Personal Hormone Assessment</h3>
+    <p>Answer honestly based on how you have been feeling over the past 3 months. There are no wrong answers — only information that helps you understand where to focus first. Select all that apply in each section.</p>
+  </div>
+
+  <!-- SECTION 1 -->
+  <div class="quiz-section">
+    <div class="quiz-section-title">🌸 Section 1 — Your Cycle & Reproductive Symptoms</div>
+    <div class="quiz-q" id="q1">
+      <div class="quiz-q-text">Which best describes your menstrual experience? (Choose all that apply, or select "Not applicable")</div>
+      <div class="quiz-options">
+        <div class="quiz-option" onclick="toggleOption(this)"><div class="quiz-option-dot"></div>Heavy or very long periods (7+ days)</div>
+        <div class="quiz-option" onclick="toggleOption(this)"><div class="quiz-option-dot"></div>Significant PMS — mood swings, bloating, breast tenderness, irritability</div>
+        <div class="quiz-option" onclick="toggleOption(this)"><div class="quiz-option-dot"></div>Irregular, skipped, or absent periods</div>
+        <div class="quiz-option" onclick="toggleOption(this)"><div class="quiz-option-dot"></div>Light or short periods with minimal symptoms</div>
+        <div class="quiz-option" onclick="toggleOption(this)"><div class="quiz-option-dot"></div>In perimenopause or post-menopause — cycles irregular or absent</div>
+        <div class="quiz-option" onclick="toggleOption(this)"><div class="quiz-option-dot"></div>Regular, predictable cycles with manageable symptoms</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 2 -->
+  <div class="quiz-section">
+    <div class="quiz-section-title">😰 Section 2 — Energy, Sleep & Stress</div>
+    <div class="quiz-q" id="q2">
+      <div class="quiz-q-text">How would you describe your energy and stress patterns? (Choose all that apply)</div>
+      <div class="quiz-options">
+        <div class="quiz-option" onclick="toggleOption(this)"><div class="quiz-option-dot"></div>Wired but tired — exhausted but can't switch off</div>
+        <div class="quiz-option" onclick="toggleOption(this)"><div class="quiz-option-dot"></div>Afternoon energy crash, needing caffeine to get through the day</div>
+        <div class="quiz-option" onclick="toggleOption(this)"><div class="quiz-option-dot"></div>Waking between 2–4am, difficulty falling back asleep</div>
+        <div class="quiz-option" onclick="toggleOption(this)"><div class="quiz-option-dot"></div>Generally low, flat energy — no peaks, no crashes, just depleted</div>
+        <div class="quiz-option" onclick="toggleOption(this)"><div class="quiz-option-dot"></div>Difficulty recovering from exercise — feeling worse after workouts</div>
+        <div class="quiz-option" onclick="toggleOption(this)"><div class="quiz-option-dot"></div>High-functioning under pressure but crash afterward</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 3 -->
+  <div class="quiz-section">
+    <div class="quiz-section-title">⚖️ Section 3 — Weight, Metabolism & Digestion</div>
+    <div class="quiz-q" id="q3">
+      <div class="quiz-q-text">Which describe your body composition and metabolism? (Choose all that apply)</div>
+      <div class="quiz-options">
+        <div class="quiz-option" onclick="toggleOption(this)"><div class="quiz-option-dot"></div>Weight gain around the midsection despite diet and exercise</div>
+        <div class="quiz-option" onclick="toggleOption(this)"><div class="quiz-option-dot"></div>Strong sugar or carbohydrate cravings, especially in the afternoon</div>
+        <div class="quiz-option" onclick="toggleOption(this)"><div class="quiz-option-dot"></div>Regular bloating, constipation, or digestive irregularity</div>
+        <div class="quiz-option" onclick="toggleOption(this)"><div class="quiz-option-dot"></div>Feeling puffy, water-retentive, or generally inflamed</div>
+        <div class="quiz-option" onclick="toggleOption(this)"><div class="quiz-option-dot"></div>Difficulty losing weight even when eating well</div>
+        <div class="quiz-option" onclick="toggleOption(this)"><div class="quiz-option-dot"></div>Unexplained weight loss or difficulty maintaining weight</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 4 -->
+  <div class="quiz-section">
+    <div class="quiz-section-title">🧠 Section 4 — Mood, Mind & Hormonal Symptoms</div>
+    <div class="quiz-q" id="q4">
+      <div class="quiz-q-text">Which of these resonate with your experience? (Choose all that apply)</div>
+      <div class="quiz-options">
+        <div class="quiz-option" onclick="toggleOption(this)"><div class="quiz-option-dot"></div>Brain fog, difficulty concentrating, or memory issues</div>
+        <div class="quiz-option" onclick="toggleOption(this)"><div class="quiz-option-dot"></div>Anxiety, racing thoughts, or difficulty calming down</div>
+        <div class="quiz-option" onclick="toggleOption(this)"><div class="quiz-option-dot"></div>Low mood, emotional flatness, or lack of motivation</div>
+        <div class="quiz-option" onclick="toggleOption(this)"><div class="quiz-option-dot"></div>Irritability or rage that feels disproportionate to the situation</div>
+        <div class="quiz-option" onclick="toggleOption(this)"><div class="quiz-option-dot"></div>Hot flashes, night sweats, or temperature dysregulation</div>
+        <div class="quiz-option" onclick="toggleOption(this)"><div class="quiz-option-dot"></div>Low libido or decreased interest in intimacy</div>
+        <div class="quiz-option" onclick="toggleOption(this)"><div class="quiz-option-dot"></div>Skin issues: hormonal acne, dry skin, or hair thinning</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECTION 5 -->
+  <div class="quiz-section">
+    <div class="quiz-section-title">🌿 Section 5 — Lifestyle Factors</div>
+    <div class="quiz-q" id="q5">
+      <div class="quiz-q-text">What are your current lifestyle patterns? (Choose all that apply)</div>
+      <div class="quiz-options">
+        <div class="quiz-option" onclick="toggleOption(this)"><div class="quiz-option-dot"></div>High stress, high-demand lifestyle with little recovery time</div>
+        <div class="quiz-option" onclick="toggleOption(this)"><div class="quiz-option-dot"></div>Frequent or daily alcohol consumption</div>
+        <div class="quiz-option" onclick="toggleOption(this)"><div class="quiz-option-dot"></div>Less than 7 hours of sleep most nights</div>
+        <div class="quiz-option" onclick="toggleOption(this)"><div class="quiz-option-dot"></div>Eating most meals on the go, skipping meals, or eating late at night</div>
+        <div class="quiz-option" onclick="toggleOption(this)"><div class="quiz-option-dot"></div>High-intensity exercise 5–7 days per week without much recovery</div>
+        <div class="quiz-option" onclick="toggleOption(this)"><div class="quiz-option-dot"></div>Sedentary most of the day with limited intentional movement</div>
+        <div class="quiz-option" onclick="toggleOption(this)"><div class="quiz-option-dot"></div>Feeling generally balanced — looking to optimize and deepen wellness</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="quiz-submit-row">
+    <button class="quiz-submit" onclick="submitQuiz()">See My Hormonal Pattern →</button>
+  </div>
+
+  <div class="quiz-result" id="quizResult">
+    <div class="result-emoji" id="resultEmoji">🌸</div>
+    <div class="result-type" id="resultType">Your Result</div>
+    <div class="result-desc" id="resultDesc"></div>
+    <div class="result-tags" id="resultTags"></div>
+    <div style="margin-top:22px;padding-top:18px;border-top:1px solid var(--border);">
+      <p style="font-size:13px;color:var(--text-light);margin-bottom:14px;">Your personalized next steps — based on your pattern:</p>
+      <div id="resultSteps"></div>
+    </div>
+  </div>
+
+  <div class="cta-banner">
+    <h3>Ready to Go Deeper Into <em>Your Healing?</em></h3>
+    <p>This 5-day guide is your starting point. Thrive Phase coaching takes you into a fully personalized, phase-specific protocol — tailored to your hormones, your life stage, and your goals.</p>
+    <button class="cta-btn">Book a Free Discovery Call →</button>
+  </div>
+
+</div>
+</div><!-- end content-area -->
+
+<footer class="site-footer">
+  <strong>Thrive Phase</strong> · Free 5-Day Hormonal Reset Guide<br>
+  For educational and wellness purposes only. Always consult your healthcare provider or registered dietitian before starting any new protocol.<br>
+  <span style="color:rgba(201,168,76,0.6);font-size:11px;">© Thrive Phase · All rights reserved</span>
+</footer>
+
+<script>
+// ─── TAB NAVIGATION ───
+const progressPcts = { 1: 20, 2: 40, 3: 60, 4: 80, 5: 100 };
+function showDay(n, btn) {
+  document.querySelectorAll('.day-panel').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.day-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('day-' + n).classList.add('active');
+  btn.classList.add('active');
+  document.getElementById('progressFill').style.width = progressPcts[n] + '%';
+  document.getElementById('progressPct').textContent = 'Day ' + n + ' of 5';
+  window.scrollTo({ top: document.getElementById('dayNav').offsetTop - 10, behavior: 'smooth' });
+}
+
+// ─── CHECKLIST ───
+function toggleCheck(li) {
+  li.classList.toggle('done');
+  if (li.classList.contains('done')) {
+    li.querySelector('.check-box').textContent = '✓';
+  } else {
+    li.querySelector('.check-box').textContent = '';
+  }
+}
+
+// ─── QUIZ OPTIONS ───
+function toggleOption(el) {
+  el.classList.toggle('selected');
+}
+
+// ─── QUIZ SUBMIT ───
+function submitQuiz() {
+  const allSelected = document.querySelectorAll('.quiz-option.selected');
+  if (allSelected.length === 0) {
+    alert('Please select at least a few options that resonate with you before submitting.');
+    return;
+  }
+
+  const texts = Array.from(allSelected).map(o => o.textContent.trim().toLowerCase());
+
+  // Score each pattern
+  let scores = { estrogen: 0, progesterone: 0, androgen: 0, cortisol: 0, balanced: 0 };
+
+  const signals = {
+    estrogen: ['heavy', 'bloating', 'breast tenderness', 'puffy', 'water-retentive', 'inflamed', 'constipation', 'digestive', 'weight gain', 'alcohol', 'difficulty losing'],
+    progesterone: ['pms', 'anxiety', 'racing thoughts', 'difficulty calming', 'irritability', 'rage', 'waking between', 'sleep', 'low mood', 'flatness', 'light or short'],
+    androgen: ['irregular', 'skipped', 'absent periods', 'acne', 'hair thinning', 'sugar or carbohydrate cravings', 'midsection', 'pcos'],
+    cortisol: ['wired but tired', 'afternoon energy crash', 'high stress', 'high-intensity exercise', 'less than 7 hours', 'difficulty recovering', 'high-functioning', 'skipping meals'],
+    balanced: ['generally balanced', 'regular, predictable', 'manageable symptoms']
+  };
+
+  texts.forEach(t => {
+    Object.entries(signals).forEach(([key, arr]) => {
+      arr.forEach(signal => { if (t.includes(signal)) scores[key]++; });
+    });
+  });
+
+  const topPattern = Object.entries(scores).sort((a, b) => b[1] - a[1])[0][0];
+
+  const results = {
+    estrogen: {
+      emoji: '🌊',
+      type: 'Estrogen Dominance',
+      desc: 'Your symptom pattern suggests estrogen dominance — too much estrogen relative to progesterone. This is the most common hormonal imbalance in women and is driven by poor estrogen clearance through the liver and gut, chronic stress (which lowers progesterone), and exposure to xenoestrogens. The good news: it responds very well to targeted lifestyle intervention.',
+      tags: ['Heavy periods', 'Breast tenderness', 'Bloating', 'PMS', 'Weight gain', 'Estrogen metabolism'],
+      steps: ['<strong>Priority 1:</strong> Start DIM (150–200mg with dinner daily) to shift estrogen metabolism toward protective pathways.', '<strong>Priority 2:</strong> Add daily cruciferous vegetables + 2 tbsp ground flaxseed for estrogen clearance support.', '<strong>Priority 3:</strong> Eliminate alcohol for 30 days — it directly impairs liver estrogen detoxification.', '<strong>Priority 4:</strong> Add magnesium glycinate 400mg nightly for liver detox and PMS symptom relief.', '<strong>Consider working with a practitioner</strong> for a full hormone panel including estradiol, progesterone, and SHBG.']
+    },
+    progesterone: {
+      emoji: '🌙',
+      type: 'Low Progesterone',
+      desc: 'Your symptom pattern points to low progesterone — often the result of chronic stress (cortisol "steals" the precursor molecule from progesterone production), inadequate ovulation, or the natural decline of the perimenopause transition. Low progesterone means low GABA activity — which explains the anxiety, sleep disruption, and emotional reactivity that often accompany it.',
+      tags: ['Anxiety', 'PMS', 'Sleep disruption', 'Mood swings', 'Luteal phase', 'GABA support'],
+      steps: ['<strong>Priority 1:</strong> Start Vitex (Chasteberry) 200–400mg every morning — allow 3 full cycles to assess effectiveness.', '<strong>Priority 2:</strong> Eliminate alcohol completely in the second half of your cycle — it drops progesterone by 30–50% within hours.', '<strong>Priority 3:</strong> Add magnesium glycinate 400mg nightly and B6 100mg in your luteal phase.', '<strong>Priority 4:</strong> Aggressively protect sleep — progesterone is your primary sleep hormone.', '<strong>Consider working with a practitioner</strong> for a progesterone blood test (Day 21 of your cycle if menstruating).']
+    },
+    androgen: {
+      emoji: '⚡',
+      type: 'Androgen Excess',
+      desc: 'Your symptom pattern suggests androgen (testosterone) excess — most commonly driven by insulin resistance, which signals the ovaries to produce excess androgens. This pattern is the hallmark of PCOS but is also present in women without a formal diagnosis. Blood sugar management is the most impactful intervention you can make.',
+      tags: ['PCOS', 'Irregular cycles', 'Hormonal acne', 'Hair thinning', 'Insulin resistance', 'Blood sugar'],
+      steps: ['<strong>Priority 1:</strong> Never eat carbohydrates alone — always pair with protein, fat, or fiber. This alone can reduce insulin-driven androgen production significantly.', '<strong>Priority 2:</strong> Start Myo-Inositol + D-Chiro Inositol (40:1 ratio) — the most evidence-supported natural PCOS intervention.', '<strong>Priority 3:</strong> Drink spearmint tea 2× daily — measurably reduces free testosterone levels.', '<strong>Priority 4:</strong> Add zinc 15–25mg — supports LH response and ovulation.', '<strong>Consider working with a practitioner</strong> for a full androgen panel including free testosterone, DHEA-S, and fasting insulin.']
+    },
+    cortisol: {
+      emoji: '🔥',
+      type: 'HPA Axis Dysregulation',
+      desc: 'Your symptom pattern strongly suggests HPA axis dysregulation — your stress response system is chronically activated, which disrupts every other hormonal system downstream. Cortisol is the master hormone that determines what\'s possible for every other hormone. Until the stress response is regulated, other hormonal interventions will have limited effect.',
+      tags: ['Adrenal fatigue', 'Stress', 'Cortisol', 'HPA axis', 'Sleep', 'Recovery'],
+      steps: ['<strong>Priority 1:</strong> Establish the morning ritual from Day 4 — no phone, morning light, delayed caffeine. This directly regulates the cortisol awakening response.', '<strong>Priority 2:</strong> Reduce exercise intensity immediately — swap HIIT for strength training + daily walking until energy recovers.', '<strong>Priority 3:</strong> Start Ashwagandha 300–600mg (KSM-66 extract) — the most clinically studied adaptogen for cortisol reduction.', '<strong>Priority 4:</strong> Add magnesium glycinate 400mg at 9pm and aim for 8 hours of sleep for 30 consecutive days.', '<strong>Consider working with a practitioner</strong> for a salivary cortisol panel (4-point testing throughout the day) for a complete picture of your cortisol rhythm.']
+    },
+    balanced: {
+      emoji: '✨',
+      type: 'Largely Balanced — Optimizing',
+      desc: 'Your symptoms suggest you are in a relatively balanced hormonal state and are looking to optimize and deepen your wellness practice. This is the best possible time to build the foundations that will support you through future hormonal transitions — whether that\'s pregnancy, perimenopause, or simply aging with vitality.',
+      tags: ['Optimization', 'Prevention', 'Longevity', 'Hormone health', 'Foundation building'],
+      steps: ['<strong>Priority 1:</strong> Build the nutritional foundation — protein at every meal, blood sugar stability, cruciferous vegetables, and fermented foods daily.', '<strong>Priority 2:</strong> Establish the morning ritual (Day 4) as a non-negotiable daily practice.', '<strong>Priority 3:</strong> Begin tracking your cycle (if menstruating) to understand your personal hormonal map.', '<strong>Priority 4:</strong> Add magnesium glycinate 400mg and Vitamin D3 + K2 — the two most universally beneficial supplements for long-term hormonal health.', '<strong>Consider working with a practitioner</strong> to establish a baseline hormone panel so you have data to track as you enter future transitions.']
+    }
+  };
+
+  const r = results[topPattern];
+  document.getElementById('resultEmoji').textContent = r.emoji;
+  document.getElementById('resultType').textContent = r.type;
+  document.getElementById('resultDesc').textContent = r.desc;
+  document.getElementById('resultTags').innerHTML = r.tags.map(t => `<span class="result-tag">${t}</span>`).join('');
+  document.getElementById('resultSteps').innerHTML = r.steps.map(s => `<div style="padding:8px 0 8px 18px;font-size:13.5px;color:var(--text-mid);line-height:1.65;border-bottom:1px solid var(--cream-dark);position:relative;"><span style="position:absolute;left:0;color:var(--rose);font-weight:700;font-size:11px;top:10px;">→</span>${s}</div>`).join('');
+
+  const result = document.getElementById('quizResult');
+  result.classList.add('show');
+  setTimeout(() => result.scrollIntoView({ behavior: 'smooth', block: 'start' }), 100);
+}
+</script>
+</body>
+</html>
